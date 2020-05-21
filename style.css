@@ -7,7 +7,10 @@
 
 body {
     background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
-    background-size: auto 100vh;
+    /*background-color: teal;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
     font-family: 'Source Code Pro', monospace;
     font-size: 12px;
 }
