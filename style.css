@@ -86,12 +86,14 @@ a:hover {
     font-style: italic;
 }
 
+.contato,
 .portfolio {
     padding: 2em;
     padding-top: 4em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.contato h2,
 .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2em;
@@ -130,6 +132,16 @@ a:hover {
     height: 180px;
     object-fit: cover;
     object-position: left bottom;
+}
+
+.contato a {
+    color: whitesmoke;
+    font-size: 5em;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    color: black;
 }
 
 /*
