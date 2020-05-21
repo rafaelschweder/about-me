@@ -1,0 +1,139 @@
+/* reset do css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+    background-size: auto 100vh;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+}
+
+/* se a tela tiver pelo menos 500px vai carregar estes estilos */
+@media (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 750px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu ul {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 10px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    padding: 10px 20px;
+    display: block;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title, 
+.site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 3em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.site-subtitle {
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+.portfolio {
+    padding: 2em;
+    padding-top: 4em;
+    height: 100vh;
+}
+
+.portfolio h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin-bottom: 1.5em;
+}
+
+.portfolio .grid {
+    display: grid;
+    gap: 2em;
+    
+}
+
+@media (min-width: 580px) {
+    .portfolio .grid {
+        grid-template-columns: repeat(2, 240px);
+        justify-content: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .portfolio .grid {
+        grid-template-columns: repeat(3, 240px);
+        justify-content: center;
+        align-content: center;
+        height: calc(100vh -4em - 48px - 1.5em);
+    }
+}
+
+.portfolio figure {
+    text-align: center;
+}
+
+.img-portfolio {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+    object-position: left bottom;
+}
+
+/*
+@media (min-width: 1200px) {
+    .img-portfolio {
+        width: 10em;
+        height: auto;
+    }
+}
+*/
