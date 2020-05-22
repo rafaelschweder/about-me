@@ -74,7 +74,7 @@ a:hover {
 }
 
 .titulo {
-    transform: scale(0.1) translateY(50vh);
+    /* transform: scale(0.1) translateY(50vh); */
     opacity: 0;
     animation: linear 2s animacao-titulo forwards;
     /* transform: transform, opacity, 2s; */
@@ -162,22 +162,35 @@ a:hover {
 }
 
 .contato .icons {
-    text-align: center;
+    display: flex;
+    height: calc(100vh - 9em);
+    align-items: center;
+    justify-content: center;
 }
 
 .contato a {
     color: whitesmoke;
     font-size: 4em;
     text-decoration: none;
-    transition: text-shadow 0.5s;
+    transition: text-shadow 250ms;
+    opacity: 0;
+    padding: 0.3em;
+    animation: 1s linear 2s animacao-contato forwards;
+}
+
+@keyframes animacao-contato {
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
 }
 
 .contato a:hover {
-    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
 }
 
 .contato a:active {
-    text-shadow: 0px 0px 12px black;
+    text-shadow: 0px 0px 15px black;
 }
 
 /*
