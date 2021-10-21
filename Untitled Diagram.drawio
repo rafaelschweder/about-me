@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T13:58:56.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.4.3" etag="zmWY2pjwMaE9AorK9IQv" type="github"><diagram id="sP4-dO4HzUA9dNAToBAx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-21T14:48:16.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6iVNTlSV4DdFQeGy1Zry" version="15.4.3" type="github">
+  <diagram id="sP4-dO4HzUA9dNAToBAx" name="Page-1">
+    <mxGraphModel dx="1822" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-34" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=14;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="418" y="483" width="175" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-33" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=14;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="28" y="483" width="175" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="115" y="150" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" vertex="1" parent="LGlZ7E07jN0xSDruJvMM-5">
+          <mxGeometry width="50" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-3" value="Azure Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;rounded=0;fontSize=17;" vertex="1" parent="LGlZ7E07jN0xSDruJvMM-5">
+          <mxGeometry x="50" y="2.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;rounded=0;glass=0;dashed=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="245" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="642" y="4" width="217" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataCenter;strokeColor=#5E5E5E;aspect=fixed;rounded=0;glass=0;fontSize=17;fillColor=none;" vertex="1" parent="LGlZ7E07jN0xSDruJvMM-14">
+          <mxGeometry width="57.17" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-13" value="Datacenter Ambev" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;rounded=0;fontSize=17;" vertex="1" parent="LGlZ7E07jN0xSDruJvMM-14">
+          <mxGeometry x="67" y="29" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;edgeStyle=orthogonalEdgeStyle;entryX=0.24;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.42;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LGlZ7E07jN0xSDruJvMM-33" target="LGlZ7E07jN0xSDruJvMM-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="193" y="548" as="sourcePoint" />
+            <mxPoint x="429" y="548.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-22" value="Consulta dados dos meses&lt;br style=&quot;font-size: 14px;&quot;&gt;anterior e atual" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="217" y="552.5" width="179" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-25" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BlobBlock.svg;rounded=0;glass=0;dashed=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="447" width="35.72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-29" value="" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_cube;fillColor=#2072B8;rounded=0;glass=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="92" y="513.5" width="47" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-30" value="Cubo&lt;br&gt;Sellout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="89" y="570.5" width="53" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-15" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Data_Warehouses.svg;rounded=0;glass=0;dashed=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="28" y="443" width="35.45" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-16" value="Azure DW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="68" y="458" width="74" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-36" value="Arquivo com&lt;br&gt;dados de Sellout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="448.5" y="573.5" width="114" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-38" value="Blob Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="458" y="456" width="91" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LGlZ7E07jN0xSDruJvMM-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/common-file-extensions-audio-documents/24/ext_csv-128.png;rounded=0;glass=0;fontSize=14;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="473.5" y="510.5" width="64" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
